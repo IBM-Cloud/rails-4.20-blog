@@ -1,7 +1,7 @@
 ---
 declared-services:
-  elephantsql:
-    label: postgres-rails
+  postgres-rails:
+    label: elephantsql
     plan: turtle
 applications:
 - name: rails-hello-world
